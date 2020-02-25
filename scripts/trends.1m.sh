@@ -1,3 +1,8 @@
 #!/bin/sh
-echo "`/usr/local/bin/trends -erl1|tr '[:upper:]' '[:lower:]'|sed 's/$/ | color=#90BD58/g'`"
+
+# Eksi
+eksitrendtext=`/usr/local/bin/trends -el1 | tr '[:upper:]' '[:lower:]'`
+echo "$eksitrendtext | color=#90BD58"
+
+# Google
 # echo "`/usr/local/bin/trends -l1 -ntr|tr '[:upper:]' '[:lower:]'|sed 's/$/ | color=yellow/g'`"
