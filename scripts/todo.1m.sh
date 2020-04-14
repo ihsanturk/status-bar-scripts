@@ -1,3 +1,7 @@
 #!/bin/sh
 
-~/.local/bin/todo | sed 's/- \[.\]//g' | grep -o '[A-z0-9/ ]' | tr -d '\n'
+echo todo
+echo ---
+~/.local/bin/todo -C | cut -d' ' -f2-
+echo '---'
+echo "↻ Refresh| terminal=false refresh=true"
