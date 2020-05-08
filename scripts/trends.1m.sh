@@ -1,5 +1,7 @@
 #!/bin/sh
 
+PATH=/Users/ihsan/go/bin:/usr/local/bin:$PATH
+
 # Eksi
 echo "$(/usr/local/bin/trends -eRl10 |
 	tr '[:upper:]' '[:lower:]'|head -1) | color=#90BD58"
