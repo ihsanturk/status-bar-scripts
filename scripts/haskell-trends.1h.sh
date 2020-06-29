@@ -5,8 +5,8 @@ LOGO='iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSF
 COLOR=#3D395A
 PUP=${HOME}/go/bin/pup
 URL="https://github.com/trending/${LANG}?since=daily"
-dir=${HOME}/.trends/github/$LANG/
-file=${HOME}/.trends/github/$LANG/$(date +%s).html
+dir=/Volumes/SDB/personal/.trends/github/$LANG
+file=$dir/$(date +%s).html
 mkdir -p "$dir"
 
 curl -s "$URL" > "$file"

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PATH=/Users/ihsan/go/bin:/usr/local/bin:$PATH
+PATH=/Users/ihsan/go/bin:/Users/ihsan/.nix-profile/bin:$PATH
 
 # Eksi
 echo "$(/usr/local/bin/trends -eRl10 |
