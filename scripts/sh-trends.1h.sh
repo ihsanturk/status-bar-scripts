@@ -1,7 +1,7 @@
 #!/bin/sh
 
-LANG=sh
-COLOR=#40AAD3
+LANG="sh"
+COLOR=#BBB83E
 TITLE=SH
 PUP=${HOME}/go/bin/pup
 URL="https://github.com/trending/${LANG}?since=daily"
